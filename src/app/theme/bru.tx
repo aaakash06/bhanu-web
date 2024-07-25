@@ -1,0 +1,15 @@
+<div className=" mx-auto grid grid-cols-4  gap-10 ">
+{/* <div className="w-[200px] h-[200px] relative"> </div> */}
+{/* <Card2 image=""></Card2> */}
+
+{/* {themes.map((theme) => (
+<Fragment key={theme}>
+  <Card Heading={theme}></Card>
+</Fragment>
+))} */}
+{themes.map((theme) => (
+  <Fragment key={theme}>
+    <Card2 image={theme}></Card2>
+  </Fragment>
+))}
+</div>
